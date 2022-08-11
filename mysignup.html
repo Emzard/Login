@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+    />
+    <link rel="stylesheet" href="mysignup.css" />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <main>
+      <img src="logo.svg" alt="logo" />
+      <h4>Create your free account</h4>
+
+      <form action="submit" class="form">
+        <label for="name">Full Name</label>
+        <input type="text" placeholder="Enter full name" required />
+
+        <label for="username">Username</label>
+        <input
+          type="text"
+          name="username"
+          id=""
+          placeholder="Enter username"
+          required
+        />
+
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id=""
+          placeholder="Enter email address"
+          required
+        />
+
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          id=""
+          placeholder="Enter password"
+          required
+        />
+
+        <p>
+          Use 8 or more characters with a mix of letters, numbers and symbols.
+          Must not contain your name or username.
+        </p>
+
+        <button class="login">Create Account</button>
+      </form>
+
+      <div class="continue">
+        <p></p>
+        <hr class="line" />
+        Continue with
+        <hr class="line" />
+      </div>
+
+      <div class="bottom">
+        <div class="contact">
+          <div>
+            <button><img src="google.svg" alt="google" class="img" /></button>
+          </div>
+
+          <div>
+            <button><img src="github2.svg" alt="github" class="img" /></button>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <p>
+          Already have an Auth-Wiki account?
+          <a href="mylogin.html">Sign in here</a>
+        </p>
+      </div>
+    </main>
+  </body>
+</html>

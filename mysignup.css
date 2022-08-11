@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(Background.svg);
+}
+
+main {
+  width: 30%;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.05), -2px 4px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 1%;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+h4 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+
+form {
+  font-family: "Manrope";
+  margin: 25px;
+}
+
+form p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: left;
+}
+
+p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 10px;
+  text-align: center;
+}
+
+input {
+  width: 90%;
+  padding: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+::placeholder {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+p input {
+  text-align: left;
+  width: 5%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+p a {
+  color: #ff9243;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0px 0px 7px 2px rgba(31, 31, 31, 0.12);
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+.form {
+  text-align: left;
+}
+
+.continue {
+  display: flex;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+.contact button {
+  width: 100px;
+  height: 50px;
+  margin: 30px;
+  border: none;
+  background: #ffffff;
+  box-shadow: 0px 0px 7px 2px rgba(31, 31, 31, 0.12);
+  border-radius: 4px;
+  margin: 8px;
+  margin-bottom: 15px;
+}
+
+.img {
+  width: 20px;
+  height: 20px;
+}
+
+.line {
+  border: 1px solid #3c627e;
+  width: 120px;
+  height: 0.01%;
+  line-height: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.login {
+  background-color: #fad7bd;
+  width: 85%;
+  height: 50px;
+  margin: 20px;
+  border-color: transparent;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+input:enabled {
+  outline-color: #fad7bd;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    width: 75%;
+    padding: 20px;
+  }
+}
